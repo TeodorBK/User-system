@@ -1,0 +1,43 @@
+/* mainNavigation */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.navLogoBox {
+  margin: 10px 5px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.navigationBox {
+  margin: 10px 10px;
+}
+
+.navigationList {
+  list-style: none;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigationList > li {
+  font-size: 1.6rem;
+  margin: 0 10px;
+}
+
+.navigationItem {
+  font-style: none;
+  color: var(--dark);
+}

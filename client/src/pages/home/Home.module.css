@@ -1,0 +1,93 @@
+/* home page */
+.home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+}
+
+.SearchBox {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchIcon {
+  font-size: 1.6rem;
+}
+
+.SearchBox > input {
+  width: 90%;
+  height: 1.4rem;
+  font-size: 1.2rem;
+  transition: 0.4s;
+  border: 2px solid var(--light);
+  border-radius: 0.2rem;
+}
+
+.SearchBox > input:focus {
+  border: 2px solid var(--main);
+  border-radius: 0.2rem;
+  outline: transparent;
+}
+
+.SearchBox > button {
+  transition: 0.4s;
+  border: 2px solid var(--light);
+  border-radius: 0.2rem;
+}
+
+.SearchBox > button:focus {
+  border: 2px solid var(--main);
+  border-radius: 0.2rem;
+  outline: transparent;
+}
+
+/* profile search result */
+.profileSearchResult {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileBox {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--dark);
+  transition: 0.4s;
+}
+
+.profileBox:hover {
+  cursor: pointer;
+  width: 72%;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.profileBox p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.profileBox img {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--dark);
+  border-radius: 50px;
+}

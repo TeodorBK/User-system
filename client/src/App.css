@@ -1,0 +1,14 @@
+:root {
+  --clr_w: #fff;
+  --clr_b: #000;
+  --main: #fc5b3b;
+  --light: #d2d2d2;
+  --dark: #082032;
+  --light_fade: #334756;
+  --dark_fade: #2c394b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
